@@ -1,0 +1,80 @@
+/* Aplica a TODAS las etiquetas en automático */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo{
+    text-align: center;
+    color: whitesmoke;
+}
+
+body{
+    background-color: thistle;
+}
+
+/* HEADER */
+.encabezado {
+    background: rgb(218, 218, 165);
+}
+
+
+/* MAIN */
+.contenedor_principal{
+    background-color: rgb(154, 209, 211);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.texto{
+    border: solid 1px black;
+    background-color: rgb(245, 245, 245);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    border: solid 1px black;
+    background-color: whitesmoke;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo {
+    height: 200px;
+    width: 150px;
+}
+
+/* SECTION */
+.contenedor_reto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagen_reto {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+.texto_reto {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contenedor_footer{
+    display: flex;
+    justify-content: space-around;
+}

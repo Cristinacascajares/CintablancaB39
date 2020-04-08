@@ -1,0 +1,57 @@
+
+p{
+    color:rgb(128, 97, 107);
+    font-family:Arial;
+}
+
+h1{
+color: #de8787;
+font-family: 'Pacifico', cursive;
+margin-left:340px;
+margin-top: 100px;
+}
+
+h2{
+    color: rgb(109, 81, 44);
+    font-family: 'Dancing Script';
+    margin: 25px;
+}
+
+
+li{
+    color:rgb(146,168,12);
+    font-family: Helvetica;
+    margin-left: 25px;
+}
+
+/*clase*/
+.negro {
+color: black;
+} 
+
+.negro:hover {
+    color: rgb(91, 29, 68);
+}
+
+/*ID tiene prioridad sobre las clases*/
+#verde { 
+    color:green; 
+    font-family:Arial;
+}
+
+.cuadrado{
+    background: rgb(250, 247, 248);
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    border:dotted 5px rgb(237, 225, 210);
+    margin: 25px;
+} 
+
+.cuadrado:hover {
+    background: rgb(228, 214, 219);
+} 
+
+body {
+    background-color:rgb(223, 236, 235);
+}

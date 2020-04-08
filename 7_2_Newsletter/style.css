@@ -1,0 +1,25 @@
+.navbar-transparent{
+    background-color: rgba(0, 0, 0, 0.331);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    height: 80px;
+    top: 0;
+}
+.fondoUno{
+    background-color: rosybrown;
+}
+.btn-primary {
+    background-color: rgb(64, 60, 65);
+    border-color: slategray;
+}
+.bt-primary:hover{
+    background-color: slategray;
+    border-color: rgb(64, 60, 65);   
+}
+body{
+    background-color: slategrey;
+}
+.main-container{
+    padding: 100px;
+}

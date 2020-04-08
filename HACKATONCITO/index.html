@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>HACKATONCITO</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-info">
+        <span class="navbar-brand mb-0 h1 text-light">S T A Y · H O M E</span>
+    </nav>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">C O V I D - 19</span>
+    </nav>
+
+    <main class="bg-secondary">
+        <div class="container">
+            <h1 class="text-white">Hola, ¿Cómo te sientes?</h1>
+            <p class="text-white">Mantenerse informado es importante, pero más importante que sea información acertada
+            </p>
+
+        </div>
+        </div>
+    </main>
+    <section class="d-flex justify-content-between
+    ">
+        <div class="container">
+            <div class="card tarjetas" style="width: 18rem;">
+                <div class="card-body informacion">
+                    <img src=coronavirus.jpeg  class="imagenc" alt="Responsive image">
+                    <h5 class="card-title">¿Qué es el coronavirus?</h5>
+                    <p class="card-text">Aprende de esta enfermedad </p> <blockquote></blockquote>
+                    <button type="button" class="btn btn-dark">Informate</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card tarjetas" style="width: 18rem;">
+                <img src=ejercicio.jpg class="imagenes" class="img-fluid" alt="Responsive image">
+                <div class="card-body informacion">
+                    <h5 class="card-title">Rutinas en casa</h5>
+                    <p class="card-text">Estar en casa puede ser dificil, pero te enseñamos nuevos hábitos </p>
+                    <button type="button" class="btn btn-dark">¡Empecemos hoy!</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card tarjetas" style="width: 18rem;">
+                <img src=noticias.jpg class="imagenes" class="img-fluid" alt="Responsive image">
+                <div class="card-body informacion">
+                    <h5 class="card-title">Últimas noticias</h5>
+                    <p class="card-text">Noticias más relevantes al momento</p>
+                    <button type="button" class="btn btn-dark">Entérate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <form  action="https://formspree.io/mnqbqeov" method="POST" class="container">
+            <div class="form-group">
+                <label for="nombre">Escribe tu nombre completo</label>
+                <input class="form-control" type="text" name="nombre" id="">
+            </div>
+            <div class="form-group">
+                <label for="mail">Escribe tu número de teléfono</label>
+                <input class="form-control" type="number" name="number" id="">
+            </div>
+            <div class="form-check">
+                <p>¿Tienes alguno de estos síntomas?</p>
+                <input type="checkbox">
+                <span>Fiebre</span>
+                <input type="checkbox">
+                <span>Dolor de cabeza</span>
+                <input type="checkbox">
+                <span>Fatiga</span>
+                <input type="checkbox">
+                <span>Dolor de garganta</span> <blockquote></blockquote>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">¿Cómo te sientes?</label>
+                <textarea class="form-control" name="mensaje" id="" cols="30" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="mail">¿Has salido recientemente del país? Si la respuesta es Sí ¿Dónde?</label>
+                <input class="form-control" type="text" name="text" id="">
+            </div>
+            <div class="form-group">
+                <label for="mail">Email</label>
+                <input class="form-control" type="email" name="mail" id="">
+            </div>
+            <div class="form-group">
+                <label for="mail">Dirección</label>
+                <input class="form-control" type="text" name="direccion" id="">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        
+    </section>
+</body>
+
+</html>
